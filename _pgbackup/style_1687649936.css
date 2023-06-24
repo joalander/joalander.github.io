@@ -11,6 +11,10 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     right: 1px;
 }
 
+div {
+    display: flex;
+}
+
 h1.presentation {
     padding-left: 70px;
     padding-top: 34px;
