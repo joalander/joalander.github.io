@@ -7,10 +7,11 @@ div.hd-top {
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     left: 102.486%;
-    position: relative;
+    position: sticky;
     right: 1px;
 }
 
-ul.ms-auto.navbar-nav {
-    text-align: right;
+h1.presentation {
+    padding-left: 70px;
+    padding-top: 34px;
 }

@@ -11,6 +11,11 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     right: 1px;
 }
 
-ul.ms-auto.navbar-nav {
-    text-align: right;
+div#navbarNavDropdown-1.collapse.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul.navbar-nav {
+    display: inline;
 }
