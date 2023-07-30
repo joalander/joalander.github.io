@@ -33,8 +33,6 @@ ul.ms-auto.navbar-nav {
 
 body {
     background: var(--dark-gray);
-    color: var(--white);
-    font-family: 'Antonio', sans-serif;
 }
 
 .container-fluid {
@@ -50,15 +48,5 @@ div#navbarNavDropdown-6 ul.navbar-nav li.nav-item a.nav-link {
 @media (min-width: 992px) {
     div#navbarNavDropdown-6 ul.navbar-nav li.nav-item a.nav-link {
         font-size: 22px;
-    }
-}
-
-body section div.card-group {
-    padding: 15px;
-}
-
-@media (min-width: 992px) {
-    body section div.card-group {
-        padding: 30px;
     }
 }

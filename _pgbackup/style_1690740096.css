@@ -52,13 +52,3 @@ div#navbarNavDropdown-6 ul.navbar-nav li.nav-item a.nav-link {
         font-size: 22px;
     }
 }
-
-body section div.card-group {
-    padding: 15px;
-}
-
-@media (min-width: 992px) {
-    body section div.card-group {
-        padding: 30px;
-    }
-}

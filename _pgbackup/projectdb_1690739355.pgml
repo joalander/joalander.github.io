@@ -9,7 +9,7 @@
                 <dmcolor key="success" color="#e4e6eb"/>
                 <dmcolor key="warning" color="#b0b3b8"/>
                 <dmcolor key="danger" color="#dc3545"/>
-                <dmcolor key="white" color="#3a3b3c"/>
+                <dmcolor key="white" color="rgb(151,114,103)"/>
                 <dmcolor key="light" color="#f8f9fa"/>
                 <dmcolor key="dark" color="rgb(78,59,53)"/>
             </dmdesignskill>
@@ -36,5 +36,5 @@
             <dmdesignskill skill="bootstrap"></dmdesignskill>
         </dmdesign>
     </dmdesigns>
-    <dmlocked bs5-colors-primary="true" bs5-colors-secondary="true" bs5-colors-info="true" bs5-colors-success="true" bs5-colors-warning="true" bs5-colors-danger="true" bs5-colors-white="true" bs5-colors-light="true" bs5-colors-dark="true" bs5-colors-button-from_image="true"></dmlocked>
+    <dmlocked bs5-colors-primary="true" bs5-colors-secondary="true" bs5-colors-info="true" bs5-colors-success="true" bs5-colors-warning="true" bs5-colors-danger="true" bs5-colors-white="false" bs5-colors-light="true" bs5-colors-dark="false"></dmlocked>
 </project>
