@@ -4092,7 +4092,7 @@ fieldset:disabled .btn {
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
-    color: var(--white);
+    color: var(--bs-nav-link-color);
     text-decoration: none;
 }
 
@@ -4302,15 +4302,16 @@ fieldset:disabled .btn {
 .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
-    align-items: end;
+    align-items: center;
 }
 
 .navbar-toggler {
     padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
     font-size: var(--bs-navbar-toggler-font-size);
     line-height: 1;
+    color: var(--bs-navbar-color);
     background-color: transparent;
-    border: var(--bs-border-width) solid var(--white);
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
     border-radius: var(--bs-navbar-toggler-border-radius);
     transition: var(--bs-navbar-toggler-transition);
 }
@@ -4332,14 +4333,15 @@ fieldset:disabled .btn {
 }
 
 .navbar-toggler-icon {
-    display: inline-block;
+    display: flex;
     width: 1.5em;
     height: 1.5em;
     vertical-align: middle;
-    background-image: var(--white);
+    background-image: var(--bs-navbar-toggler-icon-bg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    right: 1rem;
 }
 
 .navbar-nav-scroll {
@@ -4492,7 +4494,6 @@ fieldset:disabled .btn {
 
     .navbar-expand-lg .navbar-toggler {
         display: none;
-        right: 11px;
     }
 
     .navbar-expand-lg .offcanvas {
@@ -8285,7 +8286,7 @@ fieldset:disabled .btn {
 }
 
 .justify-content-end {
-    justify-content: center;
+    justify-content: flex-end !important;
 }
 
 .justify-content-center {
@@ -9232,8 +9233,7 @@ fieldset:disabled .btn {
 
 .bg-white {
     --bs-bg-opacity: 1;
-    background-color: var(--dark-gray) !important;
-    font-family: 'Antonio', sans-serif;
+    background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-body {

@@ -3,6 +3,23 @@
     <dmdesigns>
         <dmdesign active>
             <dmdesignskill skill="bs5.colors">
+                <dmcolor key="primary" color="#18191a"/>
+                <dmcolor key="secondary" color="#242526"/>
+                <dmcolor key="info" color="#3a3b3c"/>
+                <dmcolor key="success" color="#e4e6eb"/>
+                <dmcolor key="warning" color="#b0b3b8"/>
+                <dmcolor key="danger" color="#dc3545"/>
+                <dmcolor key="white" color="rgb(151,114,103)"/>
+                <dmcolor key="light" color="#f8f9fa"/>
+                <dmcolor key="dark" color="rgb(78,59,53)"/>
+            </dmdesignskill>
+            <dmdesignskill skill="fonts"></dmdesignskill>
+            <dmdesignskill skill="headings"></dmdesignskill>
+            <dmdesignskill skill="background" image_for_colors="true" advanced="true" filter_blur="0" filter_brightness="100" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="100" filter_sepia="0"></dmdesignskill>
+            <dmdesignskill skill="bootstrap"></dmdesignskill>
+        </dmdesign>
+        <dmdesign>
+            <dmdesignskill skill="bs5.colors">
                 <dmcolor key="primary" color="#0d6efd"/>
                 <dmcolor key="secondary" color="#6c757d"/>
                 <dmcolor key="info" color="#0dcaf0"/>
@@ -19,5 +36,5 @@
             <dmdesignskill skill="bootstrap"></dmdesignskill>
         </dmdesign>
     </dmdesigns>
-    <dmlocked bs5-colors-primary="false" bs5-colors-secondary="false" bs5-colors-info="false" bs5-colors-success="true" bs5-colors-warning="true" bs5-colors-danger="true" bs5-colors-white="true" bs5-colors-light="true" bs5-colors-dark="true"></dmlocked>
+    <dmlocked bs5-colors-primary="true" bs5-colors-secondary="true" bs5-colors-info="true" bs5-colors-success="true" bs5-colors-warning="true" bs5-colors-danger="true" bs5-colors-white="false" bs5-colors-light="true" bs5-colors-dark="false"></dmlocked>
 </project>
