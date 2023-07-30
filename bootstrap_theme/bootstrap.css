@@ -9010,6 +9010,7 @@ fieldset:disabled .btn {
 
 .fw-light {
     font-weight: 300 !important;
+    color: var(--white);
 }
 
 .fw-lighter {
@@ -9147,7 +9148,7 @@ fieldset:disabled .btn {
 
 .text-white {
     --bs-text-opacity: 1;
-    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+    color: var(--white);
 }
 
 .text-body {
