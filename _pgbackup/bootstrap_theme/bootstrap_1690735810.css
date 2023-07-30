@@ -3264,7 +3264,7 @@ fieldset:disabled .btn {
 }
 
 .btn-secondary {
-    --bs-btn-color: var(--white);
+    --bs-btn-color: rgb(151, 114, 103);
     --bs-btn-bg: #242526;
     --bs-btn-border-color: #242526;
     --bs-btn-hover-color: rgb(151, 114, 103);
@@ -9222,7 +9222,7 @@ fieldset:disabled .btn {
 
 .bg-dark {
     --bs-bg-opacity: 1;
-    background-color: var(--dark-gray) !important;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
