@@ -4315,7 +4315,7 @@ fieldset:disabled .btn {
     line-height: 1;
     color: var(--bs-navbar-color);
     background-color: transparent;
-    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border: var(--bs-border-width) solid var(--white);
     border-radius: var(--bs-navbar-toggler-border-radius);
     transition: var(--bs-navbar-toggler-transition);
 }
@@ -9078,6 +9078,7 @@ fieldset:disabled .btn {
 
 .text-uppercase {
     text-transform: uppercase !important;
+    color: #eee5e5;
 }
 
 .text-capitalize {
