@@ -74,45 +74,15 @@ main {
 
 .background {
     position: absolute;
-    width: 120%;
+    width: 1980px;
     transform: translate(-50%, -50%);
     z-index: 1;
-    top: 459px;
-    left: 697px;
 }
 
 .mountain-4 {
     position: absolute;
     width: 120%;
-    z-index: 2;
-    top: 60.089%;
-    left: 41.136%;
+    top: calc(80%);
     transform: translate(-50%, -50%);
-}
-
-.mountain-3 {
-    position: absolute;
-    width: 120%;
-    z-index: 3;
-    top: 54.089%;
-    left: 55.136%;
-    transform: translate(-50%, -50%);
-}
-
-.mountain-2 {
-    position: absolute;
-    width: 120%;
-    z-index: 4;
-    top: 51.089%;
-    left: 57.135999999999996%;
-    transform: translate(-50%, -50%);
-}
-
-.mountain-1 {
-    position: absolute;
-    width: 120%;
-    z-index: 5;
-    top: 39.089%;
-    left: 55.136%;
-    transform: translate(-50%, -50%);
+    z-index: 1;
 }
