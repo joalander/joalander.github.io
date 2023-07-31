@@ -1,0 +1,64 @@
+:root {
+    --black: #18191a;
+    --black-light: #242526;
+    --dark-gray: #3a3b3c;
+    --white: #e4e6eb;
+    --gray: #b0b3b8;
+    color: var(--white);
+}
+
+header {
+    background: var(--dark-gray);
+}
+
+div.hd-top {
+    display: flex;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    left: 102.486%;
+    position: sticky;
+    right: 1px;
+    background: var(--dark-gray);
+}
+
+h1.presentation {
+    padding-left: 70px;
+    padding-top: 34px;
+}
+
+ul.ms-auto.navbar-nav {
+    text-align: right;
+}
+
+body {
+    background: var(--dark-gray);
+    color: var(--white);
+    font-family: 'Antonio', sans-serif;
+}
+
+.container-fluid {
+    background: var(--dark-gray);
+}
+
+div#navbarNavDropdown-6 ul.navbar-nav li.nav-item a.nav-link {
+    font-family: 'Antonio', sans-serif;
+    color: var(--white);
+    font-size: 14px;
+}
+
+@media (min-width: 992px) {
+    div#navbarNavDropdown-6 ul.navbar-nav li.nav-item a.nav-link {
+        font-size: 22px;
+    }
+}
+
+body section div.card-group {
+    padding: 15px;
+}
+
+@media (min-width: 992px) {
+    body section div.card-group {
+        padding: 30px;
+    }
+}

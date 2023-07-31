@@ -8,7 +8,9 @@
 }
 
 header {
-    background: var(--dark-gray);
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
 }
 
 div.hd-top {

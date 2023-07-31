@@ -144,7 +144,6 @@ h1,
 h2,
 .h2 {
     font-size: calc(1.325rem + 0.9vw);
-    text-align: center;
 }
 
 @media (min-width: 1200px) {
@@ -270,7 +269,7 @@ sup {
 }
 
 a {
-    color: var(--white);
+    color: var(--bwhite);
     text-decoration: underline;
 }
 
@@ -4106,7 +4105,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: var(--bs-nav-link-hover-color);
+    color: var(--gray);
 }
 
 .nav-link.disabled {
@@ -4264,7 +4263,7 @@ fieldset:disabled .btn {
 
 .navbar-brand:hover,
 .navbar-brand:focus {
-    color: var(--bs-navbar-brand-hover-color);
+    color: var(--gray);
 }
 
 .navbar-nav {
@@ -9008,7 +9007,6 @@ fieldset:disabled .btn {
 
 .fw-light {
     font-weight: 300 !important;
-    color: var(--white);
 }
 
 .fw-lighter {
@@ -9145,7 +9143,7 @@ fieldset:disabled .btn {
 
 .text-white {
     --bs-text-opacity: 1;
-    color: var(--white);
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-body {
@@ -9236,7 +9234,6 @@ fieldset:disabled .btn {
 
 .bg-white {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-body {
