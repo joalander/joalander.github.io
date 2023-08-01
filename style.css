@@ -66,11 +66,10 @@ body section div.card-group {
 }
 
 main {
+    width: 100%;
     height: 100vh;
-    width: 100vw;
+    position: relative;
     overflow: hidden;
-    position: relative !important;
-    top: 15px;
 }
 
 .background {
@@ -86,7 +85,7 @@ main {
     position: absolute;
     width: 120%;
     z-index: 2;
-    top: 60.089%;
+    top: 78.093%;
     left: 41.136%;
     transform: translate(-50%, -50%);
 }
@@ -95,7 +94,7 @@ main {
     position: absolute;
     width: 120%;
     z-index: 3;
-    top: 54.089%;
+    top: 480px;
     left: 55.136%;
     transform: translate(-50%, -50%);
 }
@@ -104,8 +103,8 @@ main {
     position: absolute;
     width: 120%;
     z-index: 4;
-    top: 51.089%;
-    left: 57.135999999999996%;
+    top: 436px;
+    left: 54.606%;
     transform: translate(-50%, -50%);
 }
 
@@ -113,7 +112,38 @@ main {
     position: absolute;
     width: 120%;
     z-index: 5;
-    top: 39.089%;
-    left: 55.136%;
+    top: 366px;
+    left: 43.139%;
     transform: translate(-50%, -50%);
+}
+
+.profile {
+    position: absolute;
+    width: 83%;
+    z-index: 5;
+    top: 337px;
+    left: 57.56999999999999%;
+    transform: translate(-50%, -50%);
+}
+
+.hi-name {
+    top: 256px;
+    position: absolute;
+    left: 136px;
+    font-size: 139px;
+    z-index: 5;
+    text-shadow: 7px 6px 5px #4e4e4e;
+}
+
+.h2-presentation {
+    position: absolute;
+    top: 152px;
+    left: 99px;
+    z-index: 3;
+    font-size: 58px;
+    text-shadow: 12px 10px 5px 4e4e4e;
+}
+
+.container-presentation {
+    position: relative;
 }

@@ -269,7 +269,7 @@ sup {
 }
 
 a {
-    color: var(--bwhite);
+    color: var(--bs-link-color);
     text-decoration: underline;
 }
 
@@ -335,7 +335,6 @@ figure {
 img,
 svg {
     vertical-align: middle;
-    top: 20.095%;
 }
 
 table {
@@ -4106,7 +4105,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: var(--gray);
+    color: var(--bs-nav-link-hover-color);
 }
 
 .nav-link.disabled {
@@ -4257,14 +4256,14 @@ fieldset:disabled .btn {
     padding-bottom: var(--bs-navbar-brand-padding-y);
     margin-right: var(--bs-navbar-brand-margin-end);
     font-size: var(--bs-navbar-brand-font-size);
-    color: var(--white);
+    color: var(--bs-navbar-brand-color);
     text-decoration: none;
     white-space: nowrap;
 }
 
 .navbar-brand:hover,
 .navbar-brand:focus {
-    color: var(--gray);
+    color: var(--bs-navbar-brand-hover-color);
 }
 
 .navbar-nav {
@@ -4314,7 +4313,7 @@ fieldset:disabled .btn {
     line-height: 1;
     color: var(--bs-navbar-color);
     background-color: transparent;
-    border: var(--bs-border-width) solid var(--white);
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
     border-radius: var(--bs-navbar-toggler-border-radius);
     transition: var(--bs-navbar-toggler-transition);
 }
@@ -9235,6 +9234,7 @@ fieldset:disabled .btn {
 
 .bg-white {
     --bs-bg-opacity: 1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
 }
 
 .bg-body {
