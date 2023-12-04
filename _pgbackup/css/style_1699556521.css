@@ -7,16 +7,8 @@
 .slogan {
     color: var(--bs-white);
     font-family: 'Amiko', sans-serif;
+    font-style: italic;
     font-size: 20px;
     text-align: center;
     margin: 0 auto;
-}
-
-.h2-project {
-    font-family: 'Antonio', sans-serif;
-}
-
-a-scene .scene {
-    width: 100%;
-    height: 100%;
 }

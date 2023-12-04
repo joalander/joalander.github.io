@@ -227,16 +227,12 @@ h6 {
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2;
-    color: #ffffff;
-    font-family: 'Antonio', sans-serif;
+    color: var(--bs-heading-color);
 }
 
 .h1,
 h1 {
-    font-size: 71px;
-    font-family: 'Antonio', sans-serif;
-    text-align: center;
-    margin-top: 26px;
+    font-size: calc(1.375rem + 1.5vw);
 }
 
 @media (min-width:1200px){
@@ -248,10 +244,10 @@ h1 {
 
 .h2,
 h2 {
+    font-size: calc(1.325rem + .9vw);
     color: #ffffff;
     font-family: 'Amiko', sans-serif;
     text-align: center;
-    font-size: 32px;
 }
 
 @media (min-width:1200px){
@@ -844,8 +840,7 @@ progress {
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
-
-    /* margin-top: calc(-1 * var(--bs-gutter-y)) */
+    margin-top: calc(-1 * var(--bs-gutter-y));
     margin-right: calc(-.5 * var(--bs-gutter-x));
     margin-left: calc(-.5 * var(--bs-gutter-x));
 }
@@ -9487,7 +9482,7 @@ fieldset:disabled .btn {
     --bs-text-opacity: 1;
     color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
     font-family: 'Antonio', sans-serif;
-    font-size: 75px;
+    font-size: 65px;
     text-align: center;
 }
 

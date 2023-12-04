@@ -44,15 +44,12 @@
             <div class="container pb-5 pt-5">
                 <div class="pb-5 pt-5 row">
                     <div class="col-lg-6 pb-5 pt-5">
-                        <h1 class="display-4 fw-bold mb-3 text-white">Hi, I&apos;m Alejandro</h1>
-                        <h2 style="font-family: 'Antonio', sans-serif;">Digital Alchemist</h2>
-                    </div>
+</div>
                 </div>
             </div>
         </section>
-        <p class="slogan">&quot;Transforming ideas into limitless digital opportunities.&quot;</p>
         <section class="project-section">
-            <h2 class="h2-project">Projects</h2>
+            <h1 class="display-4 fw-bold mb-3 text-white">My projects</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4" style="project-row">
                 <div class="col">
                     <div class="card h-100">
@@ -89,8 +86,17 @@
                 </div>
             </div>
             <div style="display: flex; justify-content: center;">
-                <a href="./all-projects.html" class="link-all-projects">see more</a>
-            </div>
+</div>
+            <a-scene mindar-face embedded color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+                <a-assets>
+                    <a-asset-item id="glassesModel" src="./pixelglass.glb"></a-asset-item>
+                </a-assets>
+                <a-camera active="false" position="0 0 0"></a-camera>
+                <a-entity mindar-face-target="anchorIndex: 8">
+                    <a-gltf-model rotation="0 -90 0" position="0 0 0" scale="0.05 0.05 0.05" src="#glassesModel"></a-gltf-model>
+                </a-entity>
+                <!--It Works!!-->
+            </a-scene>
         </section>
         <footer></footer>
     </body>
