@@ -38,23 +38,3 @@ button.btn-outline-primary {
     margin-left: 3%;
     margin-top: 3%;
 }
-
-button.btn-outline-light {
-    margin-left: 3%;
-    margin-top: 3%;
-    line-height: 27px;
-    font-size: 30px;
-}
-
-section.info {
-    margin: 0;
-    font-family: var(--bs-body-font-family);
-    font-size: var(--bs-body-font-size);
-    font-weight: var(--bs-body-font-weight);
-    line-height: var(--bs-body-line-height);
-    color: var(--bs-gray-700);
-    text-align: var(--bs-body-text-align);
-    background-color: var(--bs-gray-800);
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-}
