@@ -20,7 +20,7 @@
         <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.2/dist/mindar-face-aframe.prod.js"></script>
     </head>
     <body>
-        <button type="button" class="btn btn-outline-light" onclick="history.back()">&larr;</button>
+        <button type="button" class="btn btn-outline-light" onclick="history.back()" style="position: absolute;">&larr;</button>
         <a-scene mindar-face embedded color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false" class="scene">
             <a-assets>
                 <a-asset-item id="glassesModel" src="./assets/models/pixelglass.glb"></a-asset-item>
