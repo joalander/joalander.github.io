@@ -17,26 +17,19 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Antonio&family=Caveat:wght@700&display=swap" rel="stylesheet">
         <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
-        <script defer src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.2/dist/mindar-face-aframe.prod.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.2/dist/mindar-face-aframe.prod.js"></script>
     </head>
     <body>
-        <div class="back-button">
-            <button type="button" class="btn btn-outline-light" onclick="history.back()">&larr;</button>
-        </div>
+        <button type="button" class="btn btn-outline-light" onclick="history.back()">&larr;</button>
         <a-scene mindar-face embedded color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false" class="scene">
             <a-assets>
                 <a-asset-item id="glassesModel" src="./assets/models/pixelglass.glb"></a-asset-item>
             </a-assets>
-            <a-assets>
-                <a-asset-item id="headModel" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.2/examples/face-tracking/assets/sparkar/headOccluder.glb"></a-asset-item>
-              </a-assets>
             <a-camera active="false" position="0 0 0"></a-camera>
-            <a-entity mindar-face-target="anchorIndex: 168">
-                <a-gltf-model mindar-face-occluder position="0 -0.3 0.15"rotation="0 0 0" scale="0.065 0.065 0.065" src="#headModel"></a-gltf-model>
-              </a-entity>
             <a-entity mindar-face-target="anchorIndex: 8">
                 <a-gltf-model rotation="0 -90 0" position="0 0 0" scale="0.05 0.05 0.05" src="#glassesModel"></a-gltf-model>
             </a-entity>
+            <!--It Works!!-->
         </a-scene>
     </section>
 </body>

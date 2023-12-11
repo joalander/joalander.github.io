@@ -57,15 +57,13 @@ section.info {
     -webkit-tap-highlight-color: transparent;
 }
 
+a-scene.scene {
+}
+
 div.back-button {
     position: absolute;
     margin-left: 3%;
     margin-top: 3%;
     line-height: 27px;
     font-size: 30px;
-}
-.link-all-projects {
-    display: flex;
-    justify-content: center;
-    
 }

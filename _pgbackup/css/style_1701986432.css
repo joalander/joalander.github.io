@@ -40,8 +40,11 @@ button.btn-outline-primary {
 }
 
 button.btn-outline-light {
-    position: fixed;
-    z-index: 2;
+    margin-left: 3%;
+    margin-top: 3%;
+    line-height: 27px;
+    font-size: 30px;
+    position: relative;
 }
 
 section.info {
@@ -55,17 +58,4 @@ section.info {
     background-color: var(--bs-gray-800);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
-}
-
-div.back-button {
-    position: absolute;
-    margin-left: 3%;
-    margin-top: 3%;
-    line-height: 27px;
-    font-size: 30px;
-}
-.link-all-projects {
-    display: flex;
-    justify-content: center;
-    
 }
