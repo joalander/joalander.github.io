@@ -81,7 +81,3 @@ div.pb-2.pt-2.buton-space {
     display: flex;
     justify-content: space-evenly;
 }
-
-a.btn.link-to {
-    margin: 0.5rem;
-}

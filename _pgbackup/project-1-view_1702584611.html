@@ -30,7 +30,7 @@
 </li>                             
                             <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="./index.html">Home</a> 
                             </li>                             
-                            <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="all%20-projects.html">Projects</a> 
+                            <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="./all-projects.html">Projects</a> 
                             </li>                             
                             <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="#">Info</a> 
                             </li>
@@ -41,13 +41,16 @@
                 </div>                 
             </nav>
         </header>
-        <section class="background-cover bg-dark pb-5 position-relative pt-5 text-secondary">
-            <h1 class="display-4 fw-bold mb-3 text-white">Hi, I&apos;m Alejandro</h1>
-            <h2 style="font-family: 'Antonio', sans-serif; font-size: 44px;">Digital Creative</h2>
-            <p class="slogan">&quot;Transforming ideas into limitless digital opportunities.&quot;</p>
+        <section class="background-cover bg-dark pb-5 position-relative pt-5 text-secondary" style="margin-top: 156px;">
+            <div class="container pb-5 pt-5">
+                <div class="pb-5 pt-5 row">
+                    <div class="col-lg-6 pb-5 pt-5">
+</div>
+                    <h1 class="display-4 fw-bold mb-3 text-white">My projects</h1>
+                </div>
+            </div>
         </section>
-        <section class="project-section" style="border-top-width: 1px;">
-            <h2 class="h2-project">Projects</h2>
+        <section class="project-section">
             <div class="row row-cols-1 row-cols-md-3 g-4" style="project-row">
                 <div class="col">
                     <div class="card h-100">
@@ -55,9 +58,30 @@
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>                         
+                        <div class="space-ten"></div>
+                        <div class="btn-ground text-center"><a href="project-1-AR.html" type="button" class="btn btn-primary">Try with AR</a>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#productModal">Quick View</button>
+                            <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="productModalLabel">Product Name</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Product details and description go here.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-footer">
-                            <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        <div class="space-ten"></div>
+                        <div class="card-footer"><small class="text-body-secondary">Last updated 3 mins ago</small>
                         </div>
                     </div>
                 </div>
@@ -68,6 +92,16 @@
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
+                        <div class="space-ten"></div>
+                        <div class="btn-ground text-center">
+                            <button type="button" class="btn btn-primary">
+                                <i class="fa fa-shopping-cart"></i> Add To Cart
+                            </button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view">
+                                <i class="fa fa-search"></i> Quick View
+                            </button>
+                        </div>
+                        <div class="space-ten"></div>
                         <div class="card-footer">
                             <small class="text-body-secondary">Last updated 3 mins ago</small>
                         </div>
@@ -86,12 +120,8 @@
                     </div>
                 </div>
             </div>
-            <div><a href="all%20-projects.html" class="link-all-projects">see more</a>
-            </div>
-        </section>
-        <section class="info" style="margin: 2rem;">
-            <h2 id="title-about-me" lass="h2-project">About me</h2>
-            <p style="text-align: center; margin: 1rem 2rem 2rem;">Hi there! I&apos;m a passionate creative multimedia developer with knowledge of web development and experience in 3D modeling. I have skills in HTML, CSS, JavaScript,  to create websites and interactive applications. I also work with tools like Blender to create 3D models. My focus is on combining web development with 3D modeling to create immersive experiences in sector such as video games, simulations and webXR development.</p>
+            <div style="display: flex; justify-content: center;">
+</div>
         </section>
         <footer></footer>
     </body>

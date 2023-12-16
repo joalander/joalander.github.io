@@ -64,24 +64,14 @@ div.back-button {
     line-height: 27px;
     font-size: 30px;
 }
-
 .link-all-projects {
     display: flex;
     justify-content: center;
+    
 }
-
 .visual-container {
     overflow: hidden;
     position: absolute;
     width: 100%;
     height: 100%;
-}
-
-div.pb-2.pt-2.buton-space {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-a.btn.link-to {
-    margin: 0.5rem;
 }

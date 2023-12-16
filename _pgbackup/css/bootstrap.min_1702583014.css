@@ -1056,7 +1056,6 @@ progress {
 .g-4,
 .gy-4 {
     --bs-gutter-y: 1.5rem;
-    justify-content: center;
 }
 
 .g-5,
@@ -5048,7 +5047,6 @@ fieldset:disabled .btn {
 .card-title {
     margin-bottom: var(--bs-card-title-spacer-y);
     color: var(--bs-card-title-color);
-    text-align: center;
 }
 
 .card-subtitle {
@@ -8378,6 +8376,7 @@ fieldset:disabled .btn {
 }
 
 .position-relative {
+    position: relative!important;
 }
 
 .position-absolute {
@@ -8454,7 +8453,7 @@ fieldset:disabled .btn {
 }
 
 .border {
-    border: var(--bs-border-width) var(--bs-border-style) var(--bs-gray-900) !important;
+    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
 }
 
 .border-0 {
@@ -9496,6 +9495,7 @@ fieldset:disabled .btn {
     font-family: 'Antonio', sans-serif;
     font-size: 75px;
     text-align: center;
+    margin-top: 80px;
 }
 
 .text-body {
@@ -13889,6 +13889,7 @@ fieldset:disabled .btn {
 }
 
 .heading-menu {
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
