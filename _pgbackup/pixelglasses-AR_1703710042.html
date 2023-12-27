@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiko&display=swap">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Antonio&display=swap">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton&display=swap">
+        <link rel="stylesheet" href="blocks.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Antonio&family=Caveat:wght@700&display=swap" rel="stylesheet">
@@ -26,7 +27,7 @@
         <div class="visual-container">
             <a-scene mindar-face embedded color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false" class="scene">
                 <a-assets>
-                    <a-asset-item id="glassesModel" src="./assets/models/heart_glasses.glb"></a-asset-item>
+                    <a-asset-item id="glassesModel" src="./assets/models/pixelglass.glb"></a-asset-item>
                 </a-assets>
                 <a-assets>
                     <a-asset-item id="headModel" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.2/examples/face-tracking/assets/sparkar/headOccluder.glb"></a-asset-item>
@@ -36,7 +37,7 @@
                     <a-gltf-model mindar-face-occluder position="0 -0.3 0.15" otation="0 0 0" scale="0.065 0.065 0.065" src="#headModel"></a-gltf-model>
                 </a-entity>
                 <a-entity mindar-face-target="anchorIndex: 8">
-                    <a-gltf-model rotation="0 -90 0" position="0 0 0" scale="0.4 0.4 0.4" src="#glassesModel"></a-gltf-model>
+                    <a-gltf-model rotation="0 -90 0" position="0 0 0" scale="0.05 0.05 0.05" src="#glassesModel"></a-gltf-model>
                 </a-entity>
             </a-scene>
         </div>

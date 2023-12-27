@@ -95,6 +95,24 @@ a.btn.link-to {
     }
 }
 
+.options-panel img {
+    border-radius: 50%;
+    border: solid 2px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.options-panel {
+    position: fixed;
+    left: 40%;
+    z-index: 2;
+    bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
 .options-panel img.selected {
     border-color: white;
 }

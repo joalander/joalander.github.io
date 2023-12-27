@@ -24,10 +24,15 @@
             <button type="button" class="btn btn-outline-light" onclick="history.back()">&larr;</button>
         </div>
         <div class="visual-container">
+            <div class="options-panel">
+                <img class="button-panel-option" id="red-glasses" src="assets/img/tooggle_red_glasses.png">
+                <img class="button-panel-option id=" hite-glasses" src="assets/img/tooggle_white_glasses.png">
+            </div>
             <a-scene mindar-face embedded color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false" class="scene">
                 <a-assets>
-                    <a-asset-item id="glassesModel" src="./assets/models/heart_glasses.glb"></a-asset-item>
-                </a-assets>
+                    <a-asset-item id="red_glasses" src="./assets/models/heart_glasses.glb"></a-asset-item>
+                    <a-asset-item id="white_glasses" src="./assets/models/heart_glasses_white.glb"></a-asset-item>
+                </a-assets>     
                 <a-assets>
                     <a-asset-item id="headModel" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.2/examples/face-tracking/assets/sparkar/headOccluder.glb"></a-asset-item>
                 </a-assets>
@@ -36,8 +41,12 @@
                     <a-gltf-model mindar-face-occluder position="0 -0.3 0.15" otation="0 0 0" scale="0.065 0.065 0.065" src="#headModel"></a-gltf-model>
                 </a-entity>
                 <a-entity mindar-face-target="anchorIndex: 8">
-                    <a-gltf-model rotation="0 -90 0" position="0 0 0" scale="0.4 0.4 0.4" src="#glassesModel"></a-gltf-model>
+                    <a-gltf-model rotation="0 -90 0" position="0 0 0" scale="0.4 0.4 0.4" src="#red_glasses"></a-gltf-model>
+                </a-entity>
+                <a-entity mindar-face-target="anchorIndex: 8">
+                    <a-gltf-model rotation="0 -90 0" position="0 0 0" scale="0.4 0.4 0.4" src="#white_glasses"></a-gltf-model>
                 </a-entity>
             </a-scene>
         </div>
+        <script defer src="./js/buttons-tooggle.js"></script>
     </body>
