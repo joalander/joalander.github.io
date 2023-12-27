@@ -85,10 +85,3 @@ div.pb-2.pt-2.buton-space {
 a.btn.link-to {
     margin: 0.5rem;
 }
-
-@media (max-width:767px) {
-    p.about {
-        margin: 1rem 2rem 2rem;
-        text-align: justify;
-    }
-}
