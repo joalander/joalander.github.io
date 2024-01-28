@@ -57,13 +57,67 @@ section.info {
     -webkit-tap-highlight-color: transparent;
 }
 
-a-scene.scene {
-}
-
 div.back-button {
     position: absolute;
     margin-left: 3%;
     margin-top: 3%;
     line-height: 27px;
     font-size: 30px;
+}
+
+.link-all-projects {
+    display: flex;
+    justify-content: center;
+}
+
+.visual-container {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+div.pb-2.pt-2.buton-space {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a.btn.link-to {
+    margin: 0.5rem;
+}
+
+@media (max-width:767px) {
+    p.about {
+        margin: 1rem 2rem 2rem;
+        text-align: justify;
+    }
+}
+
+.options-panel img.selected {
+    border-color: white;
+}
+
+div.date-container label {
+    font-family: 'Antonio', sans-serif;
+    color: #ffffff;
+}
+
+div.date-container {
+    display: flex;
+    justify-content: center;
+}
+
+div.date-button {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 5px;
+}
+
+p.project-description {
+    text-align: center;
+    margin: 2rem;
+    position: absolute;
 }

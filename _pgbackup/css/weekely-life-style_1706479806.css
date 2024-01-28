@@ -25,12 +25,6 @@
     background-color: #fff;
 }
 
-#weeks-lived-message {
-    font-family: 'Antonio', sans-serif;
-    color: var(--bs-gray-300);
-    text-align: center;
-}
-
 .week-row {
     display: flex;
     flex-wrap: nowrap;

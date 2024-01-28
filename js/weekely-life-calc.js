@@ -8,6 +8,9 @@ function generateWeekPoints() {
   const livedWeeks = calculateLivedWeeksFromDate(birthday);
   const totalWeeks = 5200;
 
+  // Update the weeks lived message
+  document.getElementById('weeks-lived-message').textContent = `You have lived ${livedWeeks} weeks.`;
+
   weekContainer.innerHTML = ''; // Clear existing week points
 
   for (let i = 0; i < totalWeeks; i++) {
@@ -28,6 +31,8 @@ function generateWeekPoints() {
 function resetWeekPoints() {
     weekContainer.innerHTML = ''; // Clear existing week points
     document.getElementById('birthday').value = ''; // Reset the date input field
+     // Clear the weeks lived message
+  document.getElementById('weeks-lived-message').textContent = '';
   }
   
 // Calculate the number of lived weeks until today based on the birthday
