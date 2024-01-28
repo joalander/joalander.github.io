@@ -98,26 +98,3 @@ a.btn.link-to {
 .options-panel img.selected {
     border-color: white;
 }
-
-div.date-container label {
-    font-family: 'Antonio', sans-serif;
-    color: #ffffff;
-}
-
-div.date-container {
-    display: flex;
-    justify-content: center;
-}
-
-div.date-button {
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    margin: 5px;
-}
-
-p.project-description {
-    text-align: center;
-    margin: 2rem;
-    position: absolute;
-}

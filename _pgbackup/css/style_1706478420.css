@@ -115,9 +115,3 @@ div.date-button {
     gap: 5px;
     margin: 5px;
 }
-
-p.project-description {
-    text-align: center;
-    margin: 2rem;
-    position: absolute;
-}
