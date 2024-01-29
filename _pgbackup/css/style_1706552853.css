@@ -120,6 +120,7 @@ div.date-button {
 p.project-description {
     text-align: center;
     margin: 2rem;
+    position: absolute;
 }
 
 .app-container {
@@ -145,17 +146,10 @@ p.project-description {
     transform: translate(-50%, -50%);
     width: 300px;
     padding: 20px;
-    background-color: var(--bs-gray-800);
+    background-color: #fff;
     text-align: center;
-    color: var(--bs-gray-300);
 }
 
 #close-button {
     margin-top: 20px;
-}
-
-a.link-pop-up {
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--bs-gray-300) !important;
 }

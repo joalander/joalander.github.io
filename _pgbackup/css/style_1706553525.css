@@ -120,6 +120,7 @@ div.date-button {
 p.project-description {
     text-align: center;
     margin: 2rem;
+    position: absolute;
 }
 
 .app-container {

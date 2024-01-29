@@ -9,7 +9,7 @@ function generateWeekPoints() {
   const totalWeeks = 5200;
 
   // Update the weeks lived message
-  document.getElementById('weeks-lived-message').textContent = `You have lived ${livedWeeks} weeks out of 5200.`;
+  document.getElementById('weeks-lived-message').textContent = `You have lived ${livedWeeks} weeks.`;
 
   weekContainer.innerHTML = ''; // Clear existing week points
 

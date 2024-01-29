@@ -120,6 +120,7 @@ div.date-button {
 p.project-description {
     text-align: center;
     margin: 2rem;
+    position: absolute;
 }
 
 .app-container {
@@ -157,5 +158,4 @@ p.project-description {
 a.link-pop-up {
     text-decoration: none;
     font-weight: bold;
-    color: var(--bs-gray-300) !important;
 }

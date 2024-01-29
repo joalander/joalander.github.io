@@ -31,7 +31,7 @@
 </li>                             
                             <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="./index.html">Home</a> 
                             </li>                             
-                            <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="all-projects.html">Projects</a> 
+                            <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="all%20-projects.html">Projects</a> 
                             </li>                             
                             <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="#">Info</a> 
                             </li>
@@ -52,8 +52,8 @@
         </section>
         <section class="project-section">
             <section class="pb-5 pt-5 text-black-50" style="border-width: 2px; border-color: #ffffff;">
-                <div class="app-container date-container">
-                    <div class="justify-content-center row"> 
+                <div class="date-container" style="border-color: #ffffff; border-width: 2px; outline: 1px solid #fff;">
+                    <div class="justify-content-center row" style="border-radius: 5%;"> 
                         <div class="date-container">
                             <label for="birthday">Please select your birthday  : </label>
                             <input type="date" id="birthday" name="birthday">
@@ -62,7 +62,7 @@
                             <button type="button" class="btn btn-primary" onclick="generateWeekPoints()">Generate</button>
                             <button type="button" class="btn btn-secondary" onclick="resetWeekPoints()">Reset</button>
                         </div>
-                        <div id="weeks-lived-message"></div>
+                        <div id="weeks-lived-message" style="margin: 1rem;"></div>
                         <div class="week-container" id="week-container">
 </div>
                     </div>                     
