@@ -75,6 +75,8 @@ div.back-button {
     position: absolute;
     width: 100%;
     height: 100%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 div.pb-2.pt-2.buton-space {
@@ -93,7 +95,67 @@ a.btn.link-to {
     }
 }
 
-a-scene.scene a-camera {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+.options-panel img.selected {
+    border-color: white;
+}
+
+div.date-container label {
+    font-family: 'Antonio', sans-serif;
+    color: #ffffff;
+}
+
+div.date-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+div.date-button {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 5px;
+}
+
+p.project-description {
+    text-align: center;
+    margin: 2rem;
+}
+
+.app-container {
+    border-radius: 10px;
+    border: 2px solid var(--bs-gray-300);
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: var(--bs-gray-800);
+    text-align: center;
+    color: var(--bs-gray-300);
+}
+
+#close-button {
+    margin-top: 20px;
+}
+
+a.link-pop-up {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--bs-gray-300) !important;
 }

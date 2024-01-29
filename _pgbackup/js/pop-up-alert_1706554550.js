@@ -4,11 +4,7 @@ window.onload = function() {
 
     closeButton.onclick = function() {
         popup.style.display = 'none';
-        localStorage.setItem('popupShown', 'true');
     };
 
-    var popupShown = localStorage.getItem('popupShown');
-    if (!popupShown) {
-        popup.style.display = 'block';
-    }
+    popup.style.display = 'block';
 };
