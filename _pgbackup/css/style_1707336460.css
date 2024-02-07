@@ -45,7 +45,7 @@ button.btn-outline-light {
 }
 
 section.info {
-    margin: 0;
+    margin: 2rem;
     font-family: var(--bs-body-font-family);
     font-size: var(--bs-body-font-size);
     font-weight: var(--bs-body-font-weight);
@@ -95,18 +95,68 @@ a.btn.link-to {
     }
 }
 
-.options-panel img {
-    border-radius: 50%;
-    border: solid 2px;
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    cursor: pointer;
+.options-panel img.selected {
+    border-color: white;
 }
 
-.options-panel {
+div.date-container label {
+    font-family: 'Antonio', sans-serif;
+    color: #ffffff;
+}
+
+div.date-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+div.date-button {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 5px;
+}
+
+p.project-description {
+    text-align: center;
+    margin: 2rem;
+}
+
+.app-container {
+    border-radius: 10px;
+    border: 2px solid var(--bs-gray-300);
+}
+
+.popup {
+    display: none;
     position: fixed;
-    left: 0;
     top: 0;
-    z-index: 2;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    border-radius: 10px;
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: var(--bs-gray-800);
+    text-align: center;
+    color: var(--bs-gray-300);
+}
+
+#close-button {
+    margin-top: 20px;
+}
+
+a.link-pop-up {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--bs-gray-300) !important;
 }

@@ -160,3 +160,7 @@ a.link-pop-up {
     font-weight: bold;
     color: var(--bs-gray-300) !important;
 }
+
+p.about {
+    text-align: center;
+}
