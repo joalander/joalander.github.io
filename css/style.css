@@ -9,7 +9,8 @@
     color: var(--bs-white);
     font-family: 'Amiko', sans-serif;
     font-size: 20px;
-    text-align: center;
+
+    /* text-align: center */
     margin: 0 auto;
 }
 
