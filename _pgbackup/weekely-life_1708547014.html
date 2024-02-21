@@ -31,7 +31,7 @@
 </li>                             
                             <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="./index.html">Home</a> 
                             </li>                             
-                            <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="all%20-projects.html">Projects</a> 
+                            <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="all-projects.html">Projects</a> 
                             </li>                             
                             <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="#">Info</a> 
                             </li>
@@ -46,13 +46,13 @@
             <div class="container pb-5 pt-5">
                 <div class="pb-5 pt-5 row">
                     <h1 class="display-4 fw-bold mb-3 text-white">Weekely Life</h1>
-                    <p class="slogan">WeekView is a minimalist web application that allows users to track and visualize their lives*** from another pespective, where each point is a week. With a simple and intuitive interface, built with HTML, CSS, and JavaScript.</p>
+                    <p class="slogan">Weekely Life is a minimalist web application that allows users to track and visualize their lives*** from another pespective, where each point is a week. With a simple and intuitive interface, built with HTML, CSS, and JavaScript.</p>
                 </div>
             </div>
         </section>
         <section class="project-section">
-            <section class="pb-5 pt-5 text-black-50">
-                <div class="date-container">
+            <section class="pb-5 pt-5 text-black-50" style="border-width: 2px; border-color: #ffffff;">
+                <div class="app-container date-container">
                     <div class="justify-content-center row"> 
                         <div class="date-container">
                             <label for="birthday">Please select your birthday  : </label>
@@ -62,14 +62,16 @@
                             <button type="button" class="btn btn-primary" onclick="generateWeekPoints()">Generate</button>
                             <button type="button" class="btn btn-secondary" onclick="resetWeekPoints()">Reset</button>
                         </div>
+                        <div id="weeks-lived-message"></div>
                         <div class="week-container" id="week-container">
 </div>
                     </div>                     
                 </div>                 
             </section>
         </section>
-        <p class="project-description" style="text-align: center; margin: 2rem;">***This application, WeekView, utilizes a representation of 5200 weeks (equivalent to 100 years) as an example. It is important to note that this example does not imply that every individual will reach this age or live for the specified duration. Various factors, including lifestyle choices and health conditions, can significantly impact an individual&apos;s lifespan. The purpose of WeekView is solely to provide a visual representation and raise awareness among users regarding time management. The information presented in WeekView should not be considered as a guarantee or certainty of one&apos;s lifespan. Users are advised to consult with relevant professionals for personalized advice on health, lifestyle, and time management. The creators and developers of WeekView are not liable for any decisions or actions based on the information provided by the application. Users utilize WeekView at their own discretion and assume responsibility for their choices and outcomes.</p>
         <script src="js/weekely-life-calc.js"></script>
-        <footer></footer>
+        <footer>
+            <p class="project-description">***This application, Weekely Life, utilizes a representation of 5200 weeks (equivalent to 100 years) as an example. It is important to note that this example does not imply that every individual will reach this age or live for the specified duration. Various factors, including lifestyle choices and health conditions, can significantly impact an individual&apos;s lifespan. The purpose of Weekely Life is only to provide a visual representation and raise awareness among users regarding time management. The information presented in Weekely Life should not be considered as a guarantee or certainty of one&apos;s lifespan. Users are advised to consult with relevant professionals for personalized advice on health, lifestyle, and time management. The creators and developers of Weekely Life are not liable for any decisions or actions based on the information provided by the application. Users utilize Weekely Life at their own discretion and assume responsibility for their choices and outcomes.</p>
+        </footer>
     </body>
 </html>
