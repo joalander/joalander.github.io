@@ -233,10 +233,10 @@ h6 {
 
 .h1,
 h1 {
-    font-size: 71px;
     font-family: 'Antonio', sans-serif;
     text-align: center;
     margin-top: 26px;
+    font-size: 40px;
 }
 
 @media (min-width:1200px){
@@ -395,6 +395,8 @@ pre,
 samp {
     font-family: var(--bs-font-monospace);
     font-size: 1em;
+    display: block;
+    float: left;
 }
 
 pre {

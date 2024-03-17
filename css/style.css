@@ -173,3 +173,16 @@ section.project-section section {
     border-width: 2px;
     border-color: #ffffff;
 }
+
+@media (max-width:500px) {
+    div.container.slogan section.song-section a {
+        font-weight: bold;
+    }
+
+    div.container.slogan section.song-section h1 {
+    }
+
+    div.container.slogan section.song-section {
+        font-size: 40px;
+    }
+}
