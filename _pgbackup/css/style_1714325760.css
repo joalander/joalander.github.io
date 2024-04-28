@@ -62,8 +62,6 @@ div.back-button {
     margin-top: 3%;
     line-height: 27px;
     font-size: 30px;
-    position: absolute;
-    z-index: 1;
 }
 
 .link-all-projects {

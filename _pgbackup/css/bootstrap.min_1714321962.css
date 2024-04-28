@@ -9928,8 +9928,7 @@ fieldset:disabled .btn {
 }
 
 .rounded-circle {
-    border-radius: 50%;
-    outline: none;
+    border-radius: 50%!important;
 }
 
 .rounded-pill {
