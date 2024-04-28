@@ -25,6 +25,10 @@
             <button type="button" class="btn btn-outline-light" onclick="history.back()">&larr;</button>
         </div>
         <div class="visual-container">
+            <div class="options-panel">
+                <img class="button-panel-option" id="red-glasses" src="assets/img/tooggle_red_glasses.png">
+                <img class="button-panel-option" id="white-glasses" src="assets/img/tooggle_white_glasses.png">
+            </div>
             <a-scene mindar-face embedded color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false" class="scene">
                 <a-assets>
                     <a-asset-item id="red_glasses" src="./assets/models/heart_glasses_red.glb"></a-asset-item>
@@ -46,10 +50,6 @@
                     <a-gltf-model rotation="0 90 0" position="0 0 0" scale="0.4 0.4 0.4" src="#white_glasses" class="white-glasses-entity"></a-gltf-model>
                 </a-entity>
             </a-scene>
-            <div class="options-panel">
-                <img class="button-panel-option" id="red-glasses" src="assets/img/tooggle_red_glasses.png">
-                <img class="button-panel-option" id="white-glasses" src="assets/img/tooggle_white_glasses.png">
-            </div>
         </div>
         <script defer src="./js/buttons-tooggle.js"></script>
     </body>
