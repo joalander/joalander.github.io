@@ -17,4 +17,4 @@ function scrollToBottom(duration) {
 }
 
 // Example usage: scroll to bottom with a duration of 1000 milliseconds (1 second)
-scrollToBottom(240000);
+scrollToBottom(2000);

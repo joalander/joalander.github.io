@@ -1,4 +1,4 @@
-function scrollToBottom(duration) {
+function scrollToBottom(240000) {
   const scrollHeight = document.body.scrollHeight;
   const windowHeight = window.innerHeight;
   const scrollStep = Math.PI / (duration / 15);
@@ -17,4 +17,4 @@ function scrollToBottom(duration) {
 }
 
 // Example usage: scroll to bottom with a duration of 1000 milliseconds (1 second)
-scrollToBottom(240000);
+scrollToBottom(1000);

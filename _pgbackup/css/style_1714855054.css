@@ -187,12 +187,3 @@ section.project-section section {
         font-size: 40px;
     }
 }
-
-@media (max-width:575px) {
-    div.back-button {
-        position: static;
-        z-index: 2;
-        display: flex;
-        justify-content: center;
-    }
-}
