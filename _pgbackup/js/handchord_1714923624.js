@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const windowHeight = window.innerHeight;
     const scrollStep = Math.PI / (duration / 15);
     let count = 0;
-    let scrollPosition = -1000;
+    let scrollPosition = -100;
   
     const scrollInterval = setInterval(() => {
       if (window.scrollY !== scrollHeight - windowHeight) {

@@ -189,10 +189,11 @@ section.project-section section {
 }
 
 @media (max-width:575px) {
-    div.back-button {
+    div.back-button-centred {
         position: static;
         z-index: 2;
         display: flex;
         justify-content: center;
     }
 }
+

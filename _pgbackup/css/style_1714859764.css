@@ -2,6 +2,7 @@
     margin-top: 2rem;
     margin-right: 1rem;
     margin-left: 1rem;
+    text-align: center;
 }
 
 .slogan {
@@ -40,12 +41,11 @@ button.btn-outline-primary {
 }
 
 button.btn-outline-light {
-    position: fixed;
     z-index: 2;
 }
 
 section.info {
-    margin: 0;
+    margin: 2rem;
     font-family: var(--bs-body-font-family);
     font-size: var(--bs-body-font-size);
     font-weight: var(--bs-body-font-weight);
@@ -58,11 +58,12 @@ section.info {
 }
 
 div.back-button {
-    position: absolute;
     margin-left: 3%;
     margin-top: 3%;
     line-height: 27px;
     font-size: 30px;
+    position: absolute;
+    z-index: 1;
 }
 
 .link-all-projects {
@@ -86,6 +87,10 @@ div.pb-2.pt-2.buton-space {
 
 a.btn.link-to {
     margin: 0.5rem;
+    font-family: 'Antonio', sans-serif;
+    font-size: 22px;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 @media (max-width:767px) {
@@ -120,7 +125,6 @@ div.date-button {
 p.project-description {
     text-align: center;
     margin: 2rem;
-    position: absolute;
 }
 
 .app-container {
@@ -137,6 +141,7 @@ p.project-description {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 9999;
+    border-radius: 10px;
 }
 
 .popup-content {
@@ -146,10 +151,60 @@ p.project-description {
     transform: translate(-50%, -50%);
     width: 300px;
     padding: 20px;
-    background-color: #fff;
+    background-color: var(--bs-gray-800);
     text-align: center;
+    color: var(--bs-gray-300);
 }
 
 #close-button {
     margin-top: 20px;
+}
+
+a.link-pop-up {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--bs-gray-300) !important;
+}
+
+p.about {
+    text-align: center;
+}
+
+section.project-section section {
+    border-width: 2px;
+    border-color: #ffffff;
+}
+
+@media (max-width:500px) {
+    div.container.slogan section.song-section a {
+        font-weight: bold;
+    }
+
+    div.container.slogan section.song-section h1 {
+    }
+
+    div.container.slogan section.song-section {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:575px) {
+    div.back-button {
+        position: static;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#scroll-control {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+#scroll-control button {
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-right: 8px;
 }

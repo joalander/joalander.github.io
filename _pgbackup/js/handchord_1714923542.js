@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const windowHeight = window.innerHeight;
     const scrollStep = Math.PI / (duration / 15);
     let count = 0;
-    let scrollPosition = -1000;
+    let scrollPosition = 0;
   
     const scrollInterval = setInterval(() => {
       if (window.scrollY !== scrollHeight - windowHeight) {
@@ -18,5 +18,5 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   // Example usage: scroll to bottom with a duration of 1000 milliseconds (1 second)
-  scrollToBottom(240000);
+  scrollToBottom(1000);
 });
