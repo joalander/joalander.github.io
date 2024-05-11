@@ -1,7 +1,9 @@
 .project-section {
     margin-top: 2rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    text-align: center;
+    border-top-width: 1px;
 }
 
 .slogan {
@@ -61,6 +63,8 @@ div.back-button {
     margin-top: 3%;
     line-height: 27px;
     font-size: 30px;
+    position: absolute;
+    z-index: 1;
 }
 
 .link-all-projects {
@@ -84,6 +88,10 @@ div.pb-2.pt-2.buton-space {
 
 a.btn.link-to {
     margin: 0.5rem;
+    font-family: 'Antonio', sans-serif;
+    font-size: 22px;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 @media (max-width:767px) {
@@ -167,3 +175,79 @@ section.project-section section {
     border-width: 2px;
     border-color: #ffffff;
 }
+
+@media (max-width:500px) {
+    div.container.slogan section.song-section a {
+        font-weight: bold;
+    }
+
+    div.container.slogan section.song-section h1 {
+    }
+
+    div.container.slogan section.song-section {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:575px) {
+    div.back-button-centred {
+        position: static;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+handchord-banner {
+    background-image: url('assets/img/handchord_picture.png');
+}
+
+.handchord-banner {
+    background-image: url('../assets/img/handchord_picture.png');
+    background-position: right center;
+    background-size: cover;
+}
+
+description {
+    display: flex;
+}
+
+div.description {
+    display: flex;
+}
+
+table,
+th,
+td {
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: 'Amiko', sans-serif;
+}
+
+th,
+td {
+    width: 5%;
+}
+
+td {
+    padding: 0.5rem;
+}
+
+tr td a:link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Amiko', sans-serif;
+}
+
+tr td a:visited {
+    text-decoration: none;
+}
+
+tr td a:hover {
+    text-decoration: none;
+}
+
+tr td a:active {
+    text-decoration: none;
+}
+

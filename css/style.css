@@ -239,3 +239,18 @@ tr td a:link {
     font-family: 'Amiko', sans-serif;
 }
 
+tr td a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+tr td a:hover {
+    text-decoration: none;
+    color: var(--bs-blue);
+}
+
+tr td a:active {
+    text-decoration: none;
+    color: #ffffff;
+}
+
