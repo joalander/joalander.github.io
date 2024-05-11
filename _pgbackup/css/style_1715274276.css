@@ -1,9 +1,8 @@
 .project-section {
     margin-top: 2rem;
-    margin-right: 3rem;
-    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     text-align: center;
-    border-top-width: 1px;
 }
 
 .slogan {
@@ -196,23 +195,5 @@ section.project-section section {
         display: flex;
         justify-content: center;
     }
-}
-
-handchord-banner {
-    background-image: url('assets/img/handchord_picture.png');
-}
-
-.handchord-banner {
-    background-image: url('../assets/img/handchord_picture.png');
-    background-position: right center;
-    background-size: cover;
-}
-
-description {
-    display: flex;
-}
-
-div.description {
-    display: flex;
 }
 

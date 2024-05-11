@@ -208,11 +208,3 @@ handchord-banner {
     background-size: cover;
 }
 
-description {
-    display: flex;
-}
-
-div.description {
-    display: flex;
-}
-

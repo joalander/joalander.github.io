@@ -204,15 +204,7 @@ handchord-banner {
 
 .handchord-banner {
     background-image: url('../assets/img/handchord_picture.png');
-    background-position: right center;
-    background-size: cover;
-}
-
-description {
-    display: flex;
-}
-
-div.description {
-    display: flex;
+    background-position: right bottom;
+    background-size: auto;
 }
 
