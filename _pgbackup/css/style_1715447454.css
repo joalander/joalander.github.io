@@ -222,20 +222,6 @@ td {
     margin: 0 auto;
     color: #ffffff;
     font-family: 'Amiko', sans-serif;
-}
-
-th,
-td {
-    width: 5%;
-}
-
-td {
-    padding: 0.5rem;
-}
-
-tr td a:link {
-    text-decoration: none;
-    color: #ffffff;
-    font-family: 'Amiko', sans-serif;
+    width: 80%;
 }
 

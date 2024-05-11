@@ -445,9 +445,7 @@ svg {
     vertical-align: middle;
 }
 
-.catalog-songs,
-th,
-td {
+.catalog-songs {
     border: 1px solid #808080;
     border-collapse: collapse;
 }
@@ -460,9 +458,8 @@ caption {
 }
 
 th {
+    /* text-align: inherit */
     text-align: -webkit-match-parent;
-    font-size: 18px;
-    padding: 0.5rem;
 }
 
 label {
