@@ -58,15 +58,6 @@ section.info {
     -webkit-tap-highlight-color: transparent;
 }
 
-div.back-button {
-    margin-left: 3%;
-    margin-top: 3%;
-    line-height: 27px;
-    font-size: 30px;
-    position: absolute;
-    z-index: 1;
-}
-
 .link-all-projects {
     display: flex;
     justify-content: center;
@@ -252,5 +243,42 @@ tr td a:hover {
 tr td a:active {
     text-decoration: none;
     color: #ffffff;
+}
+
+section.contact-section a img {
+}
+
+section.contact-section {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-section a svg {
+    width: 2rem;
+    fill: #fff;
+    margin: 1rem 0.5rem;
+}
+
+h2.profetion {
+    font-family: 'Antonio', sans-serif;
+    font-size: 44px;
+}
+
+section.info div.bio-section-about-me {
+    display: grid;
+}
+
+footer {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+div.back-buton-weekely-app {
+    margin-left: 3%;
+    margin-top: 3%;
+    line-height: 27px;
+    font-size: 30px;
+    position: static;
+    z-index: 1;
 }
 
