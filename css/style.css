@@ -279,6 +279,11 @@ div.back-buton-weekely-app {
     line-height: 27px;
     font-size: 30px;
     position: static;
-    z-index: 1;
+}
+
+div.back-button {
+    position: absolute;
+    z-index: 2;
+    margin: 2rem 2rem;
 }
 
