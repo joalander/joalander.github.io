@@ -19,7 +19,7 @@ light.position.z = 5;
 // Load the 3D model
 const loader = new GLTFLoader();
 loader.load(
-  '/gun.glb',
+  '../public/models/gun.glb',
   (gltf) => {
     const model = gltf.scene;
 
