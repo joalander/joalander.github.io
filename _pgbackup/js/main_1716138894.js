@@ -45,17 +45,3 @@ camera.position.z = objToRender=== "moria" ? 25 : 500;
 const light = new THREE.AmbientLight( 0x333333, objToRender=== "moria" ? 5 : 1 ); 
 //  white light
 scene.add( light );
-
-//Render scene
-function animate () {
-    requestAnimationFrame(animate);
-    //here some code to update the scene , adding automatic movement
-};
-window.addEventListener("resize", function() {
-    camera.aspect = window.innerWidth / window.innerHeight;
-    camera.updateProjectMatrix();
-    renderer.setSize(window.innerWidth, window.innerHeight);
-});
-
-// Render the scene
-animate();

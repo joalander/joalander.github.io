@@ -30,7 +30,7 @@ loader.load( 'assets/models/moria_door_just_gates.glb', function ( gltf ) {
 
 } );
 
-//render and set its size
+//Initiate a render and set its size
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );
 document.body.appendChild( renderer.domElement );
@@ -42,20 +42,5 @@ document.getElementById("container3D").appenChild(renderer.domElement);
 camera.position.z = objToRender=== "moria" ? 25 : 500;
 
 //Adding ambient Light
-const light = new THREE.AmbientLight( 0x333333, objToRender=== "moria" ? 5 : 1 ); 
-//  white light
+const light = new THREE.AmbientLight( 0x404040 ); // soft white light
 scene.add( light );
-
-//Render scene
-function animate () {
-    requestAnimationFrame(animate);
-    //here some code to update the scene , adding automatic movement
-};
-window.addEventListener("resize", function() {
-    camera.aspect = window.innerWidth / window.innerHeight;
-    camera.updateProjectMatrix();
-    renderer.setSize(window.innerWidth, window.innerHeight);
-});
-
-// Render the scene
-animate();

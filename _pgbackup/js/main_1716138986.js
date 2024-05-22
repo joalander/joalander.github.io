@@ -56,6 +56,3 @@ window.addEventListener("resize", function() {
     camera.updateProjectMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
 });
-
-// Render the scene
-animate();
