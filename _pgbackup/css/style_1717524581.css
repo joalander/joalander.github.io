@@ -203,6 +203,10 @@ description {
     display: flex;
 }
 
+div.description {
+    display: flex;
+}
+
 table,
 th,
 td {
@@ -289,15 +293,5 @@ div.back-button {
     position: absolute;
     top: 0%;
     left: 0%;
-}
-
-p.description {
-    font-family: 'Amiko', sans-serif;
-    font-size: 21px;
-}
-
-div.description {
-    justify-content: center;
-    display: flex;
 }
 

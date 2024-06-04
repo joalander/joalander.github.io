@@ -8758,6 +8758,7 @@ fieldset:disabled .btn {
 }
 
 .align-items-center {
+    align-items: center!important;
 }
 
 .align-items-baseline {
